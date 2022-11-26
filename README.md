@@ -19,7 +19,7 @@ Quic：[RFC 9000 - QUIC: A UDP-Based Multiplexed and Secure Transport (ietf.org)
 
 -----
 
-# 简单上手
+# 快速使用
 
 **library/rdt_on_udp**文件夹中有头文件和源文件，**不需要编译，直接在项目中include即可使用**。
 
