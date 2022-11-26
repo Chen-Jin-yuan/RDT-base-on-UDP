@@ -340,7 +340,7 @@ udpSock(UdpSock), SegDataSize(UDPSEGSIZE), maxWindow(102400), handShakeTime(HAND
     drtt = 0;
 
     socketaddr.sin_family = AF_INET;//ipv4
-    socketaddr.sin_port = htons(port);//�ֽ���ת��
+    socketaddr.sin_port = htons(port);//×Ö½ÚÐò×ª»»
     inet_pton(AF_INET, ip, &socketaddr.sin_addr);
 
     //random choose myid
@@ -1119,7 +1119,7 @@ void Sender::sendFile()
     chrono::system_clock::time_point time2 = std::chrono::system_clock::now();
     size_t writeBytes = sendWindow.writeBytes();
     double MB = double(writeBytes) / 1000 / 1000;
-    printf("receive %03f MB totally\n", MB);
+    printf("send %03f MB totally\n", MB);
     printf("speed: %03f MB/s\n", 1000 * MB / (chrono::duration_cast<std::chrono::milliseconds>(time2 - time1).count() - DETECTTIME));
 }
 
