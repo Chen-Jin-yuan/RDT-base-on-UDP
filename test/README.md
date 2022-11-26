@@ -324,7 +324,7 @@ int main()
 
 服务器的程序截图如下，分发NAT地址：
 
-![image-20221126181045413](.\img\test_3_1.png)
+![image-20221126181045413](./img/test_3_1.png)
 
 文件收发测试如下：
 
@@ -334,4 +334,4 @@ int main()
 
 使用`1300`的报文大小配置，速度大小为2MB/s，还算过得去。
 
-![image-20221126181226164](C:\Users\14242\AppData\Roaming\Typora\typora-user-images\image-20221126181226164.png)
+![image-20221126181226164](./img/test_3_2.png)
