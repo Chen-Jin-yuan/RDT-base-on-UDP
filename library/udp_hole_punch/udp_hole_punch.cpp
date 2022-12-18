@@ -121,6 +121,7 @@ bool udpHolePunch(SOCKET& udpfd, const char* gateway_ip, const int gatewayPort)
         printf("udp sendto error2!\n");
         return false;
     }
+    return true;
 }
 
 bool udpPunchSide(SOCKET& udpfd, const char* server_ip, const int serverPort, const int myPort)
