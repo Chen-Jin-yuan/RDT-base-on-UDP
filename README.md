@@ -38,7 +38,7 @@ Quic：[RFC 9000 - QUIC: A UDP-Based Multiplexed and Secure Transport (ietf.org)
 
 # 设计过程
 
-因为平时比较忙，项目设计时分了好几段时间来做，所以有些地方思路会断开，代码也会有不足的地方。可以在GitHub上issue或联系邮箱`chen_jy@sjtu.edu.cn`。
+因为平时比较忙，项目设计时分了好几段时间来做，所以有些地方思路会断开，代码也会有不足的地方。可以在GitHub上issue。
 
 整个设计过程可以看我的博客：[RDT base on UDP | JySama](https://jysama.cn/2022/11/26/RDT_base_on_UDP/)
 
